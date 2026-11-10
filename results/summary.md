@@ -1,0 +1,31 @@
+### Wine (13 features)
+
+| algorithm | best_fitness | mean_fitness | std_fitness | worst_fitness | mean_test_acc | mean_features | mean_time_s | mean_evaluations | mean_iter_to_best |
+|---|---|---|---|---|---|---|---|---|---|
+| GA | 0.0127 | 0.0134 | 0.0019 | 0.0188 | 0.9796 | 6 | 0.2013 | 298 | 12.5 |
+| PSO | 0.0127 | 0.0133 | 0.0019 | 0.0188 | 0.9796 | 5.8 | 0.4694 | 779.4 | 12.6 |
+| ACO | 0.0132 | 0.0183 | 0.0028 | 0.0215 | 0.9556 | 5.3 | 0.135 | 147.8 | 9.3 |
+| All features | 0.0499 | 0.0499 | 0 | 0.0499 | 0.9444 | 13 | 0.0002 | 1 | 0 |
+| Forward selection | 0.027 | 0.027 | 0 | 0.027 | 0.9074 | 4 | 0.0099 | 55 | 4 |
+| Exhaustive (optimal) | 0.0127 | 0.0127 | 0 | 0.0127 | 0.9815 | 6 | 1.6567 | 8191 | 0 |
+
+### Breast Cancer (30 features)
+
+| algorithm | best_fitness | mean_fitness | std_fitness | worst_fitness | mean_test_acc | mean_features | mean_time_s | mean_evaluations | mean_iter_to_best |
+|---|---|---|---|---|---|---|---|---|---|
+| GA | 0.0211 | 0.0228 | 0.0017 | 0.0264 | 0.9485 | 12.3 | 4.4889 | 500.3 | 27.6 |
+| PSO | 0.0233 | 0.025 | 0.0012 | 0.0264 | 0.9526 | 14.6 | 8.8496 | 1020 | 26.6 |
+| ACO | 0.0179 | 0.0226 | 0.0027 | 0.0261 | 0.9573 | 11 | 4.8421 | 508.8 | 30.5 |
+| All features | 0.0498 | 0.0498 | 0 | 0.0498 | 0.9591 | 30 | 0.0107 | 1 | 0 |
+| Forward selection | 0.0272 | 0.0272 | 0 | 0.0272 | 0.9298 | 7 | 1.8363 | 212 | 7 |
+
+### Synthetic (100 features)
+
+| algorithm | best_fitness | mean_fitness | std_fitness | worst_fitness | mean_test_acc | mean_features | mean_time_s | mean_evaluations | mean_iter_to_best |
+|---|---|---|---|---|---|---|---|---|---|
+| GA | 0.1361 | 0.1627 | 0.0148 | 0.1792 | 0.7722 | 45.8 | 9.8383 | 654.3 | 45.1 |
+| PSO | 0.1899 | 0.2027 | 0.0103 | 0.2214 | 0.7694 | 45 | 14.6615 | 1020 | 27.9 |
+| ACO | 0.1026 | 0.1144 | 0.0114 | 0.1399 | 0.8444 | 10.3 | 12.9667 | 825.4 | 41.2 |
+| All features | 0.3046 | 0.3046 | 0 | 0.3046 | 0.7389 | 100 | 0.015 | 1 | 0 |
+| Forward selection | 0.1913 | 0.1913 | 0 | 0.1913 | 0.65 | 4 | 8.5351 | 490 | 4 |
+
